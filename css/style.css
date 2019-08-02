@@ -184,6 +184,11 @@ ul {
     position: relative;
   }
 
+.card-body {
+   
+   box-shadow: 0px 18px 40px 8px rgba(224, 241, 255, 0.7) !important;
+  }
+
 
 .card-body li {
     list-style: none;
