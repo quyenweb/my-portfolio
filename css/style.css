@@ -1,8 +1,8 @@
 /*!------------------------------------------------------------------
 [MAIN STYLESHEET]
 
-PROJECT:	Project Name
-VERSION:	Versoin Number
+PROJECT:  Project Name
+VERSION:  Versoin Number
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
@@ -39,6 +39,7 @@ p-lg, .paragraph-lg {
 #hello h1 {
   margin-bottom: 100px;
 }
+
 
 h1, h3, h4, h5, h6 {
   color: #110844;
@@ -289,6 +290,11 @@ a:hover {
 .section {
   padding-top: 50px;
   padding-bottom: 80px;
+}
+
+#thankyou{
+padding-top: -50px;
+ height: 100vh;
 }
 
 .section-title {
