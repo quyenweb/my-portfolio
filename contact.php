@@ -1,13 +1,12 @@
 <?php
 
-
+$EmailFrom = "88design.online";
 $EmailTo = "quyen.bui26@gmail.com";
-$email_from = '88design.online';
-$Subject = " contact message";
-$Name = Trim(stripslashes($_POST['name'])); 
-
-$Email = Trim(stripslashes($_POST['email'])); 
-$Message = Trim(stripslashes($_POST['message'])); 
+$Subject = "contact message";
+$Name = Trim(stripslashes($_POST['Name'])); 
+$Tel = Trim(stripslashes($_POST['Tel'])); 
+$Email = Trim(stripslashes($_POST['Email'])); 
+$Message = Trim(stripslashes($_POST['Message'])); 
 
 // validation
 $validationOK=true;
