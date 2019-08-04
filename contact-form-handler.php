@@ -11,7 +11,7 @@ $email_subject = 'Form Submission'
 
 $email_body = "";
 $email_body = $email_body . "Name: " . $name . "<br>";
-$email_body = $email_body . "Email: " . $email . "<br>";
+$email_body = $email_body . "Email: " . $visitor_email . "<br>";
 $email_body = $email_body . "Message: " . $message;
 
 $to = "quyen.bui26@gmail.com";
